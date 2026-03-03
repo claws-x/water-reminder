@@ -22,6 +22,11 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
 	<key>NSUserNotificationUsageDescription</key>
 	<string>HydroTrack 需要发送通知权限，以便定时提醒您喝水。</string>
 	<key>UIApplicationSceneManifest</key>
